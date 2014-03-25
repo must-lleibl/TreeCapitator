@@ -16,4 +16,8 @@ Here is the progress record:
 */
 
 
-class TreeCap implements Plugin {
+class TreeCapPlugin implements Plugin{
+	public function __construct(ServerAPI $api, $server=0){}
+	public function __destruct(){}
+	public function init(){}
+}
